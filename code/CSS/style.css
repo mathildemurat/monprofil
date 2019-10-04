@@ -1,0 +1,118 @@
+/*import des fichiers de composants*/
+@import	url("components/card.css");
+
+/*regles de style general*/
+
+body{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 20px;
+	background-image: url(../images/fond.jpeg);
+	background-size: cover;
+}
+
+
+
+h1{
+	color:#2FA494;
+}
+
+h2{
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: 900;
+}
+
+a{
+	color: #972D07;
+	text-decoration: none;
+}
+
+img{
+border-radius:50%;
+width: 350px;
+height:350px;
+} 
+
+i{
+	font-size: 32px;
+}
+
+#tailleprenom{
+	font-size: 70px;
+}
+	
+
+.container{
+	width: 600px; 
+	margin: 35px auto;
+
+}
+
+@media(max-width: 960px){
+	.container{
+	width: 700px;
+	}
+}
+
+@media(max-width: 720px){
+	.container{
+	width: 500px;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+.card{
+	background-color: #2FA494;
+	padding:35px 12px;
+	margin: 35px 0px;
+	border-radius: 20px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.paragraphe-jaune{
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.cta{
+	background-color: #2FA485;
+	color: white;
+	border-radius: 5%;
+	padding: 15px 50px;
+	font-size: 10px;
+}
+
+a:hover{
+	background-color: pink;
+}
+
+#text {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 35px;
+}
+
+#bg-img {
+	background-image: linear-gradient(rgba(0, 0, 0, 0, 120), rgba(0, 0, 0, 0.5)), url(../"horizon.jpeg");
+	background-size: 100%; 
+	background-position: bottom;
+	color: white;
+
+}
+
+}
+
+
+
+
